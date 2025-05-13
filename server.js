@@ -7,7 +7,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: 'https://movie-react-ten-psi.vercel.app/',
+  origin: 'http://localhost:5173',
   credentials: true // if you're using cookies or tokens
 }));
 app.use(express.json());
